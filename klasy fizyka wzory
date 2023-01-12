@@ -1,0 +1,57 @@
+class Predkosc():
+    def Droga(self, v, t):
+        print(v*t)
+
+    def Czas(self, v, s):
+        print(s/v)
+    
+    def Predkosc(self, t, s):
+        print(s/t)
+
+class Ruch_po_okregu():
+    def Predkosc(self, s, T):
+        print(s/T)
+    
+    def Czestotliwsoc(self, n, t):
+        print(n/t)
+
+    def Predkosc_katowa(self, pi, f):
+        print(2*pi*f)
+
+class Jakies_losowe_tam():
+
+
+
+    def Sila_ciezkosci(self, m, g):
+        print(m*g)
+        
+    def Praca_mechaniczna(self, F, s):
+        print(F*s)
+        
+    def Napiecie_elektryczne(self, W, q):
+        print(W/q)
+        
+    def Moc(self, W, t):
+        print(W/t)
+        
+    def Energia_potencjalna(self, m, g, h):
+        print(m*g*h)
+        
+    def Energia_kinetyczna(self, m, V):
+        print(0,5*m*V**2)
+        
+    def Praca_pradu(self, P, t):
+        print(P*t)
+        
+    def Natezenie_pradu(self, U, R):
+        print(U/R)
+        
+    def Gestosc(self, m, v):
+        print(m/v)
+        
+    def Cisnienie(self, Fn, s):
+        print(Fn/s)
+        
+    def Cisnienie_hydrostatyczne(self, d, g, h):
+        print(d*g*h)
+
