@@ -1,0 +1,131 @@
+from kartofelek import szescian, prostopadloscian, walec, stozek, kula, ostroslop, graniastoslup, kula2, stozek2, donut, donut2
+
+a = int(input())
+
+b1 = szescian(a)
+
+lista = [b1]
+
+for obj in lista:
+    obj.informacjeszescian()
+
+
+
+b = int(input())
+c = int(input())
+d = int(input())
+
+b2 = prostopadloscian(b, c, d)
+    
+lista2 = [b2]
+
+for obj in lista2:
+    obj.informacjeprostopadloscian()
+
+
+
+e = int(input())
+f = int(input())
+
+b3 = walec(e, f)
+
+lista3 = [b3]
+
+for obj in lista3:
+    obj.informacjewalec()
+
+
+g = int(input())
+h = int(input())
+
+b4 = stozek(g, h)
+
+lista4 = [b4]
+
+for obj in lista4:
+    obj.informacjestozek()
+
+
+i = int(input())
+
+b5 = kula(i)
+
+lista5 = [b5]
+
+for obj in lista5:
+    obj.informacjekula()
+
+
+
+
+j = int(input())
+k = int(input())
+
+b6 = ostroslop(j, k)
+
+lista6 = [b6]
+
+
+for obj in lista6:
+    obj.informacjeostroslup()
+
+
+
+l = int(input())
+m = int(input())
+
+b7 = graniastoslup(l, m)
+
+lista7 = [b7]
+
+
+for obj in lista7:
+    obj.informacjegraniastoslup()
+
+
+
+
+o = int(input())
+
+b8 = kula2(o)
+
+lista8 = [b8]
+
+for obj in lista8:
+    obj.informacjekula2()
+
+
+
+
+p = int(input())
+r = int(input())
+
+b9 = stozek2(p, r)
+
+lista9 = [b9]
+
+for obj in lista9:
+    obj.informacjestozek2()
+
+
+s = int(input())
+t = int(input())
+
+b10 = donut(s, t)
+
+lista10 = [b10]
+
+for obj in lista10:
+    obj.informacjedonut()
+
+
+
+u = int(input())
+w = int(input())
+
+b11 = donut2(u, w)
+
+lista11 = [b11]
+
+for obj in lista11:
+    obj.informacjedonut2()
