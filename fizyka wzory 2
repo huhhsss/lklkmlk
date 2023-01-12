@@ -1,0 +1,24 @@
+from math import pi
+from klasy_fizyka import Predkosc, Ruch_po_okregu, Jakies_losowe_tam
+
+
+obj = Predkosc()
+obj.Droga(5,15)
+obj.Czas(5,15)
+obj.Predkosc(5,15)
+obj2 = Ruch_po_okregu()
+obj2.Predkosc(2*pi*5,1)
+obj2.Czestotliwsoc(5,15)
+obj2.Predkosc_katowa(pi,5)
+obj3 = Jakies_losowe_tam()
+obj3.Sila_ciezkosci(15,5)
+obj3.Praca_mechaniczna(5,15)
+obj3.Napiecie_elektryczne(5,15)
+obj3.Natezenie_pradu(5,15)
+obj3.Energia_kinetyczna(5,15)
+obj3.Energia_potencjalna(5,15,5)
+obj3.Moc(5,15)
+obj3.Praca_pradu(5,15)
+obj3.Gestosc(5,15)
+obj3.Cisnienie(5,15)
+obj3.Cisnienie_hydrostatyczne(5,15,5)
