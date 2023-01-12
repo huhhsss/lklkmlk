@@ -1,0 +1,117 @@
+
+from math import pi
+
+
+class szescian():
+    def __init__(self, bokszescian):
+        self.bokszescian = bokszescian
+
+
+    def informacjeszescian(self):
+        print(f"pole = {self.bokszescian * self.bokszescian}")
+
+
+class prostopadloscian():
+    def __init__(self, bokprostopadloscian1, bokprostopadloscian2, wysokoscszescian):
+        self.bokprostopadloscian1 = bokprostopadloscian1
+        self.bokprostopadloscian2 = bokprostopadloscian2
+        self.wysokoscszescian = wysokoscszescian
+
+
+    def informacjeprostopadloscian(self):
+        print(f"pole = {self.bokprostopadloscian1 * self.bokprostopadloscian2 * self.wysokoscszescian}")
+
+
+
+
+class walec():
+    def __init__(self, promienwalca, wysokoscwalca):
+        self.promienwalca = promienwalca
+        self.wysokoscwalca = wysokoscwalca
+
+
+    def informacjewalec(self):
+        print(f"pole = {pi * self.promienwalca^2 * self.wysokoscwalca}")
+
+
+
+class stozek():
+    def __init__(self, promienstozka, wysokoscstozka):
+        self.promienstozka = promienstozka
+        self.wysokoscstozka = wysokoscstozka
+
+
+    def informacjestozek(self):
+        print(f"pole = {1/3 * pi * self.promienstozka^2 * self.wysokoscstozka}")
+
+
+class kula():
+    def __init__(self, promienkuli):
+        self.promienkuli= promienkuli
+
+
+    def informacjekula(self):
+        print(f"pole = {4/3 * pi * self.promienkuli**3}")
+
+
+class ostroslop():
+    def __init__(self, polepodstawyostroslupa, wysokoscostroslupa):
+        self.polepodstawyostroslupa = polepodstawyostroslupa
+        self.wysokoscostroslupa = wysokoscostroslupa
+
+
+    def informacjeostroslup(self):
+        print(f"pole = {1/3 * self.polepodstawyostroslupa * self.wysokoscostroslupa}")
+
+
+
+class graniastoslup():
+    def __init__(self, polepodstawygraniastoslupa, wysokoscgraniastoslupa):
+        self.polepodstawygraniastoslupa = polepodstawygraniastoslupa
+        self.wysokoscgraniastoslupa = wysokoscgraniastoslupa
+
+
+    def informacjegraniastoslup(self):
+        print(f"pole = {self.polepodstawygraniastoslupa * self.wysokoscgraniastoslupa}")
+
+
+
+
+class kula2():
+    def __init__(self, promienkuli2):
+        self.promienkuli2 = promienkuli2
+
+
+    def informacjekula2(self):
+        print(f"pole = {4/3 * pi * self.promienkuli2**3 * 1/2}")
+
+
+
+
+class stozek2():
+    def __init__(self, promienstozka2, wysokoscstozka2):
+        self.promienstozka2 = promienstozka2
+        self.wysokoscstozka2 = wysokoscstozka2
+
+
+    def informacjestozek2(self):
+        print(f"pole = {1/3 * pi * self.promienstozka2**2 * self.wysokoscstozka2*1/2}")
+
+
+class donut():
+    def init(self, promiendonuta, promiensrodkadonuta):
+        self.pomiendonuta = promiendonuta
+        self.promiensrodkadonuta = promiensrodkadonuta
+
+    def informacjedonut(self):
+        print(f"objetosc donuta = {pi**2*self.pomiendonuta*self.promiensrodkadonuta**2}")
+
+
+
+class donut2():
+    def init(self, promiendonuta2, promiensrodkadonuta2):
+        self.pomiendonuta2 = promiendonuta2
+        self.promiensrodkadonuta2 = promiensrodkadonuta2
+
+    def informacjedonut2(self):
+        print(f"objetosc donuta = {pi**2*self.pomiendonuta2*self.promiensrodkadonuta2**2*1/2}")
