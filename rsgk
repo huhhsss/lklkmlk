@@ -1,0 +1,31 @@
+from random import randint
+
+class cos():
+    def __init__(self, imie, nazwisko, wiek, ocenyzmatmy):
+        self.imie = imie
+        self.nazwisko = nazwisko
+        self.wiek = wiek 
+        self.ocenyzmatmy = ocenyzmatmy
+
+  
+
+    # def oceny(self):
+    #     for  in range(4):
+    #         self.ocenyzmatmy.append(randint(1,6))
+    #         print(self.ocenyzmatmy)
+
+
+    def przedstawsie(self):
+        print(f"nazywam sie {self.imie} {self.nazwisko}")
+
+ucz1 = cos("maciek", "bak", 23, [4, 5, 6] )
+ucz2 = cos("maciek", "bak", 23, [4, 5, 6] )
+
+lsitucznia = [ucz1, ucz2]
+
+
+for obj in lsitucznia:
+    obj.przedstawsie()
+
+    
+        
